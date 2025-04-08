@@ -1,3 +1,4 @@
+/*****estilo ´para index.html*****/
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,24 +17,25 @@ header{
 #logo{
     height: 150px;
 }
-#img-topo{
+
+#img-topo {
     width: 100%;
     height: 300px;
-    min-width: 300px;
     background-image: url("../img/imagem-topo.png");
+    min-height: 300px;
     background-size: cover;
 }
 
 nav{
     background-color:rgb(1, 10, 1);
     padding: 2px 0px 5px 0px;
+    text-align: center;
 }
-nav{
+nav a{
     text-decoration: none;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-    text-align: center;
 }
 
 nav a:hover{
@@ -71,4 +73,89 @@ footer{
     font-weight: lighter;
     padding-top: 10px 0px;
     margin-top: auto;
+}
+
+
+/*********estilo para sobre.html******/
+
+#conteudo-empresa{
+    display: flex;
+}
+
+#conteudo-empresa-esequerda{
+    width: 50%;
+}
+
+
+#conteudo-empresa-direita{
+    width: 50%;
+}
+
+#conteudo-empresa-direita p{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#img-empresa{
+    width: 100%;
+}
+
+ #selo-melhores-empresas{
+    height: 25%;
+    margin-top: 35px;
+ }
+
+/*******estilos para solucoes.html******/
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a;
+    font-size:28px ;
+}
+
+.destaques-protudos{
+    padding: 0px 15px ;
+}
+
+.destaques-protudos a{
+    text-decoration: nome;
+    color: goldenrod;
+}
+
+.destaques-protudos a:hover{
+    font-weight: bold;
+}
+
+
+/*********estilos para casos.html**********/
+
+#detalhes-caso{
+    display: flex;
+    margin: 30px 0px;
+}
+#detalhes-caso img{
+    padding-right: 30px;
+}
+
+#detalhes-casos-texto{
+    text-align: start;
+}
+
+/********estilos para contato.html********/
+
+#frm-container{
+    display: flex;
+}
+#frm-labels{
+    background-color: aqua;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields{
+    background-color: blue;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
 }
